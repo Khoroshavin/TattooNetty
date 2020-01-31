@@ -1,0 +1,15 @@
+.head__headline {
+  margin: 40px;
+}
+
+.collapse__pozor {
+  color:red;
+}
+
+.slider {
+  margin: 40px auto;
+}
+.carousel-item {
+  width: 100%;
+  max-height: 460px;
+}

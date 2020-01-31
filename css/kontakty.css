@@ -1,0 +1,38 @@
+.headline {
+margin: 40px;
+}
+
+.text__link-firm-clr {
+  text-decoration: none;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.text__link-firm-clr:hover {
+  text-decoration: none;
+}
+
+.popis {
+  margin-top: 35px;
+}
+.doba {
+  margin-top: 45px;
+}
+
+.doba_cas {
+  font-size: 20px;
+}
+
+.mail {
+  font-size: 20px;
+}
+
+.mobile {
+margin-top: 25px;
+font-size: 20px;
+}
+
+.mapa {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
