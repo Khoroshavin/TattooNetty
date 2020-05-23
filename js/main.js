@@ -21,7 +21,11 @@ window.location.hash = hash;
 });
 });
 
-$.ionTabs("#tabs_1"); // one tabs group
+// $.ionTabs("#tabs_1"); // one tabs group
+
+jQuery(function($){
+    $.ionTabs("#tabs_1"); // one tabs group
+    });
 
 // GALERY
 baguetteBox.run('.grid-gallery', { animation: 'slideIn'});

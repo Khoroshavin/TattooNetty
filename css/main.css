@@ -244,14 +244,24 @@ body {
   font-size: 22px;
 }
 
+.nav__link-active{
+  color: var(--firm-clr-hvr);
+}
+
+.mobile-nav__link-active{
+  color: var(--firm-clr-hvr);
+}
+
 .mobile-nav__link:hover {
   color: var(--firm-clr);
 }
 
+
+
 @media (max-width: 335px) {
   .logo {
     font-size: 28px;
-    }
+  }
 }
 
 
@@ -377,19 +387,23 @@ button::-moz-focus-inner {
   .ionTabs__item {
     padding-left: 0px;
     padding-right: 0px;
-    }
+  }
+
   .gallery {
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .gallery__wrap {
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .item {
     padding-left: 5px;
     padding-right: 5px;
   }
+
   .gallery__inner {
     padding-left: 0px;
     padding-right: 0px;
@@ -398,15 +412,15 @@ button::-moz-focus-inner {
 
 @media (max-width: 285px) {
   .ionTabs__tab {
-   margin-right: 0px;
-    }
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 255px) {
   .ionTabs__tab.ionTabs__tab_state_active {
-   padding-left: 5px;
-   padding-right: 5px;
-    }
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 
@@ -869,7 +883,6 @@ textarea.input100 {
 }
 
 /* FOOTER */
-/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
 section {
   padding: 20px 0;
 }
@@ -899,6 +912,10 @@ section .section-title {
   -webkit-text-decoration-skip: objects;
 }
 
+#footer a:hover{
+  color: var(--firm-clr-hvr);
+}
+
 #footer ul.social li {
   padding: 3px 0;
 }
@@ -906,9 +923,7 @@ section .section-title {
 #footer ul.social li a i {
   margin-right: 5px;
   font-size: 25px;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
+
 }
 
 #footer ul.social li:hover a i {
@@ -917,7 +932,9 @@ section .section-title {
 }
 
 #footer ul.social li a,
-#footer ul.quick-links li a {}
+#footer ul.quick-links li a {
+  /*  */
+}
 
 #footer ul.social li a:hover {
   color: var(--firm-clr-hvr);
@@ -925,16 +942,10 @@ section .section-title {
 
 #footer ul.quick-links li {
   padding: 3px 0;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
-
 }
 
 #footer ul.quick-links li:hover {
   padding: 3px 0;
-  margin-left: 5px;
-  font-weight: 700;
   color: var(--firm-clr-hvr);
 }
 
@@ -943,7 +954,6 @@ section .section-title {
 }
 
 #footer ul.quick-links li:hover a i {
-  font-weight: 700;
   color: var(--firm-clr-hvr);
 }
 
@@ -978,4 +988,47 @@ section .section-title {
     padding-left: 5px;
     padding-right: 5px;
   }
+}
+
+
+
+/* PAGE KONTAKTY */
+.headline {
+  margin: 40px;
+}
+
+.text__link-firm-clr {
+  text-decoration: none;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.text__link-firm-clr:hover {
+  text-decoration: none;
+}
+
+.popis {
+  margin-top: 35px;
+}
+
+.doba {
+  margin-top: 45px;
+}
+
+.doba_cas {
+  font-size: 20px;
+}
+
+.mail {
+  font-size: 20px;
+}
+
+.mobile {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.mapa {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
