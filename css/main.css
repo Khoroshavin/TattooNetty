@@ -447,8 +447,7 @@ button::-moz-focus-inner {
 
 .accordion-section .panel-default .panel-title a {
   display: block;
-  /* font-style: italic; */
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--main-text-clr);
 }
 
@@ -467,7 +466,7 @@ button::-moz-focus-inner {
 }
 
 .accordion-section .panel-default .panel-body {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* // FAQ */
@@ -927,7 +926,6 @@ section .section-title {
 }
 
 #footer ul.social li:hover a i {
-  font-size: 30px;
   margin-top: -10px;
 }
 
